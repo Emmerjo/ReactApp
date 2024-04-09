@@ -18,3 +18,9 @@ props: Reacts manier om data door te geven
 useState: speciale React functie die het toelaat om zaken te 'onthouden'
 
 React development tools = super handige plugin
+
+Op een gegeven moment een infinite loop. Ik zal opzoekingswerk moeten doen om dit op te lossen.
+=> Blijkbaar had ik die functie onSquareClick daar zo in gezet dat die continu aangeroepen werd. In de plaats de () => syntax gebruiken
+
+Wat me opvalt is dat de 'renderer' van React de state van objecten bijhoud. Dit in tegenstelling tot andere frameworks waar we al
+mee gewerkt hebben waarbij iedere keer dat je een aanpassing in de code opslaat de volledige pagina opnieuw gerendered wordt.
