@@ -1,3 +1,20 @@
 Begonnen met gewoon 'npm create-react-app my-app' uit te voeren (Node was al geïnstalleerd)
 
 Daarna de index.js aangepast en de server gestart met 'npm start'. Dit werkt.
+
+Code aangepast om meer in lijn te zijn met moderne React development
+
+React maakt ook gebruik van components zoals andere frontend frameworks die we in het verleden gebruikt hebben.
+default keyword laat zien dat dit de main functie van je file is (zie App.js)
+In dezelfde file kan je dit terugzien: <button> is een JSX element. Dit is een combinatie tussen JavaScript en HTML.
+
+index.js wordt gebruikt voor de koppeling tussen de componenten die je maakt en de browser.
+
+Een eerste error: Bij het toevoegen van een tweede button kwam de melding: "Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX Fragment"
+Deze elementen moeten gewrapped worden in een fragment. De syntax hiervoor is <> </>
+
+props: Reacts manier om data door te geven
+
+useState: speciale React functie die het toelaat om zaken te 'onthouden'
+
+React development tools = super handige plugin
