@@ -1,3 +1,3 @@
 Begonnen met gewoon 'npm create-react-app my-app' uit te voeren (Node was al geïnstalleerd)
 
-Daarna de index.js aangepast en de server gestart met 'npm start'. Dit werkt
+Daarna de index.js aangepast en de server gestart met 'npm start'. Dit werkt.
